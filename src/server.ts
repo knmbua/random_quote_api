@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from 'cors';
 
 const app = express();
 // We need a database of quotes
@@ -32,6 +33,8 @@ quote: 'Javascript is the tool that turns ideas into reality.'
 
 // When a route sends back an array or an object, it is an API route
 // When a route is an API route, you should prefix the path with a/api
+// Allow other domains to make requests to our server
+app.use(cors());
 
 app.get('/api/quote', (_, responseObj) => {
     const randomQuote = quotes[Math.floor(Math.random()* quotes.length)];
