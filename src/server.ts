@@ -12,7 +12,7 @@ const quotes = [
     'Learning JavaScript is like learning to speak the language of the web.',
     'JavaScript is the key to unlocking the full potential of the web.',
     'The more you practice JavaScript, the better you get.',
-    'JavaScript is the most powerful tool in a web developer’s toolkit.',
+    'JavaScript is the most powerful tool in a web developer\’s toolkit.',
     'JavaScript is the bridge between creativity and functionality.',
     'Every line of JavaScript you write is a step closer to mastery.',
     'JavaScript is the canvas on which you can paint your web dreams.',
